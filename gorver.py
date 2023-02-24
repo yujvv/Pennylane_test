@@ -3,7 +3,7 @@ from pennylane import numpy as np
 import time
 
 # Define the number of qubits and the number of iterations
-num_qubits = 4
+num_qubits = int(input("qubits:\n"))
 # the size of the database is 2^3 = 8
 num_iterations = int(np.pi/4 * np.sqrt(2**num_qubits))
 
