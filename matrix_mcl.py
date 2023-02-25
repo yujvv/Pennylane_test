@@ -53,8 +53,8 @@ def apply_gates(num_gates):
     end_time = time.time()
 
     # Calculate and print the execution time
-    execution_time = (end_time - start_time) * 1000
-    print(f"Execution time: {execution_time:.2f} ms")
+    elapsed_time = end_time - start_time
+    print("Elapsed time: ", elapsed_time, "seconds")
 
 if __name__ == '__main__':
     num_gates = int(input("gates:\n"))
