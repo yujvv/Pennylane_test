@@ -46,8 +46,8 @@ def apply_gates(num_gates):
             # gates_list[i]['gate'](wires=range(gates_list[i]['wires']))
             # print("Applying {} gate on wires {}".format(gates_list[i]['gate'].__name__, gates_list[i]['wires']))
             print("Applying {} gate on wires".format(gates_list[i]['gate'].__name__))
-        return qml.probs(wires=range(gates_list[i]['wires']))
-        
+#         return qml.probs(wires=range(gates_list[i]['wires']))
+        return
     circuit()
     # Record the end time
     end_time = time.time()
