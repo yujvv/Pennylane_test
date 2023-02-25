@@ -27,6 +27,6 @@ start_time = time.time()
 res = GroverSearch(num_iterations=num_iterations)
 end_time = time.time()
 
-execution_time = (end_time - start_time) * 1000
-print(f"Execution time: {execution_time:.2f} ms")
+elapsed_time = end_time - start_time
+print("Elapsed time: ", elapsed_time, "seconds")
 # print(res)
